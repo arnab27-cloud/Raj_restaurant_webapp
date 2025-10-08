@@ -1,5 +1,7 @@
 # raj_restaurant_website
 
+This website is built to take room bookings, table reservations, and food ordering.
+All items will be added to the cart, then proceed to checkout
 prerequisites
 Check node and npm installation:
 
