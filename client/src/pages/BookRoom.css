@@ -1,0 +1,39 @@
+.book-room-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 1.5rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.booking-form .form-group {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-form label {
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+
+.booking-form input,
+.booking-form select {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.book-btn {
+  padding: 0.6rem 1rem;
+  background: #0078D4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.success-msg {
+  margin-top: 1rem;
+  color: green;
+  font-weight: bold;
+}

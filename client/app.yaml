@@ -1,0 +1,13 @@
+runtime: nodejs20
+
+env_variables:
+  NODE_ENV: 'production'
+
+handlers:
+  - url: /static
+    static_dir: build/static
+    http_headers:
+      Cache-Control: "no-cache, no-store, must-revalidate"
+
+  - url: /.*
+    script: auto
